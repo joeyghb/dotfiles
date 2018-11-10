@@ -1,6 +1,6 @@
 FROM phusion/baseimage:0.9.18
 
-MAINTAINER Bo-Yi Wu <appleboy.tw@gmail.com>
+MAINTAINER Pgluffy <kuang7156@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -13,7 +13,7 @@ RUN apt-get -y install libevent-dev libncurses-dev make
 RUN wget https://github.com/tmux/tmux/releases/download/2.2/tmux-2.2.tar.gz -O tmux-2.2.tar.gz
 RUN tar xvzf tmux-2.2.tar.gz && cd tmux-2.2 && ./configure && make && make install -m prefix=/usr
 RUN locale-gen en_US en_US.UTF-8 && dpkg-reconfigure locales
-RUN git clone https://github.com/appleboy/dotfiles.git
+RUN git clone https://github.com/joeyghb/dotfiles.git
 RUN chmod 755 dotfiles/bootstrap.sh
 RUN ./dotfiles/bootstrap.sh -f
 
