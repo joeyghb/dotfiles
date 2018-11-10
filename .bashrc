@@ -1,16 +1,19 @@
-# source code from https://github.com/appleboy/config
+# source code from https://github.com/joeyghb/config
 
 export LANGUAGE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export LC_CTYPE="UTF-8"
 export LANG="en_US.UTF-8"
 export GOPATH="/Users/joey/Joey_workspace/go"
+export VSCODE="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/"
 
 alias cdgo="cd ~/Joey_workspace/go"
 alias cdjo="cd ~/Joey_workspace"
 alias ltr="ls -ltr"
 alias ltra="ls -ltra"
 alias s="cd .."
+alias vscode="open -a /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+alias cubvm="open -a /Applications/VMware\ Horizon\ Client.app/"
 
 # set for mac
 export CLICOLOR=1
@@ -21,7 +24,7 @@ export EDITOR="vim"
 export GIT_PAGER="less"
 export LESS="-EfmrSwX"
 export LSCOLORS="dxfxcxdxbxegedabagacad"
-export PATH="/usr/local/sbin:/usr/sbin:/sbin:$PATH:$GOPATH:."
+export PATH="/usr/local/sbin:/usr/sbin:/sbin:$PATH:$GOPATH:$VSCODE:."
 
 # Add a timestamp to your bash history
 export HISTTIMEFORMAT="%d/%m/%y %T "
