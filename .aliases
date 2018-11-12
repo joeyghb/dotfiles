@@ -1,22 +1,29 @@
 #!/usr/bin/env bash
 
 # Easier navigation: .., ..., ...., ....., ~ and -
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
+alias s="cd .."
+#alias ...="cd ../.."
+#alias ....="cd ../../.."
+#alias .....="cd ../../../.."
+#alias ~="cd ~" # `cd` is probably faster to type though
+#alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias h="history"
 alias j="jobs"
-alias k="kubectl"
-alias ka="kubectl get pods,svc,deploy -o wide"
+alias cdgo="cd ~/Joey_workspace/go"
+alias cdjo="cd ~/Joey_workspace"
+alias ltr="ls -ltr"
+alias ltra="ls -ltra"
+alias s="cd .."
+alias vscode="open -a /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+alias cubvm="open -a /Applications/VMware\ Horizon\ Client.app/"
+#alias d="cd ~/Documents/Dropbox"
+#alias k="kubectl"
+#alias ka="kubectl get pods,svc,deploy -o wide"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

@@ -7,14 +7,6 @@ export LANG="en_US.UTF-8"
 export GOPATH="/Users/joey/Joey_workspace/go"
 export VSCODE="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/"
 
-alias cdgo="cd ~/Joey_workspace/go"
-alias cdjo="cd ~/Joey_workspace"
-alias ltr="ls -ltr"
-alias ltra="ls -ltra"
-alias s="cd .."
-alias vscode="open -a /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
-alias cubvm="open -a /Applications/VMware\ Horizon\ Client.app/"
-
 # set for mac
 export CLICOLOR=1
 
