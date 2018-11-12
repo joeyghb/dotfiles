@@ -2,7 +2,7 @@
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias s="cd .."
-#alias ...="cd ../.."
+alias ss="cd ../.."
 #alias ....="cd ../../.."
 #alias .....="cd ../../../.."
 #alias ~="cd ~" # `cd` is probably faster to type though
